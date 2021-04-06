@@ -1,0 +1,1122 @@
+/* Pierre Sénéchal | Augustin Mariage | Judith Lecoq | François Beaucour */
+/*LAST VERSION (?) 27/05
+
+  /*********************/
+ /* Page de connexion */
+/*********************/
+
+h1 {
+	font-family : "Bebas Neue";
+	font-size: 40px;
+	text-decoration: underline;
+	margin-left : 60px;
+	margin-top : 0px;
+	color: #2e8b57;
+}
+
+.infoconnect{
+	font-family : "Bebas Neue";
+	color:  #303030;
+}
+.container {
+	margin-top : -50px;
+}
+
+#form1{
+width:100%;
+padding:30px;
+border:1px solid white;
+font-weight:bold;
+background-color: white;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container{
+	width:400px;
+	margin: auto;
+	margin-top:5%;
+	margin-bottom : 5%;
+}
+
+#container h1{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+input[type=submit] {
+    background-color: #2C75FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+	border: none;
+}
+
+input[type=button] {
+    background-color: #2C75FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+	border: none;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+ input[type=submit]:hover { 
+    background-color: #22427C;
+    border: 1px solid #53af57;
+}
+
+ input[type=button]:hover { 
+    background-color: #22427C;
+    border: 1px solid #53af57;
+}
+	
+	
+@media screen and (max-width:868px){
+	form{
+	width:80%;
+	text-align:center;
+	justify-content: center; /* alignement vertical */
+ }
+ #container{
+	width:200px;
+	text-align:center;
+	margin: 0 auto;
+	margin-top:10%;
+}
+#container h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+}
+ 
+ 
+  /*********************/
+ /*Page d'inscription */
+/*********************/
+
+.Join {
+	font-family : "Bebas Neue";
+	font-size: 40px;
+	text-decoration: underline;
+	margin-left : 60px;
+	margin-top : 0px;
+	color: #2e8b57;
+}
+
+.infoinscri{
+	font-family : "Bebas Neue";
+	color: black;
+	opacity: 80%;
+}
+
+#container2{
+	width:400px;
+	margin: auto;
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+#container2 h2{
+	text-align:center;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#form2{
+width:100%;
+padding:30px;
+border:1px solid white;
+font-weight:bold;
+background-color: white;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+  /***********/
+ /* Accueil */
+/***********/
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("BebasNeue-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  background-image: url("white.jpg");
+  background-repeat:none;
+  background-position: center center;
+  background-attachment:fixed;
+  background-size: cover;
+  height: 100%;
+}
+a
+{
+color: black;
+text-decoration: none;
+}
+
+.logoimg{
+
+width:200px;
+height:162px;
+margin-top: -845px;
+margin-left: 25px;
+
+-webkit-transition:-webkit-transform .9s; 
+-moz-transition:-moz-transform .9s;       
+-o-transition:-o-transform .9s;           
+-ms-transition:-ms-transform .9s;        
+transition:transform .9s;
+}
+
+.logoimg:hover{
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+}
+
+.TitreAccueil {
+	grid-area : Titre;
+}
+.Nutrition {
+	grid-area : Nutrition;
+}
+
+.Entrainements {
+	grid-area : Entrainements;
+}
+
+.Formulaire {
+	grid-area : Formulaire;
+}
+
+.Rien {
+	grid-area : Rien;
+}
+
+.Accueil {
+	padding:50px; 
+	
+}
+
+.TitreAccueil {	   
+	font-weight: bold;
+    font-size: 100px;  
+	color: #2e8b57;
+	text-align: center;
+	font-family: "Bebas Neue";
+	margin-top: 22px;
+} 
+.rectangleTitre {
+  height: 90px;
+  width: 1000px;
+  background-color: #C8C8C8;
+  opacity: 85%;
+  margin-top:0;
+  position: center;
+  margin-left: 200px;
+  border-style: inset;
+  border-color: #2e8b57;
+}
+
+.Profil{
+	font-family : "Bebas Neue";
+	font-size: 17px;
+	margin-left : 1220px;
+	margin-top : -100px;
+	color: #2e8b57;
+	width: 100px;
+}
+
+.modifprofil{
+	font-family : "Bebas Neue";
+	font-size: 13px;
+	color: black;
+	height: 20px;
+	
+}
+
+.choose {
+	color: #2e8b57;
+	margin-top : 120px;
+	margin-left : 100px;
+	text-decoration: underline;
+	font-family: "Bebas Neue";
+	font-size: 30px;
+	
+}
+.menu1 {
+	background-color: #98FB98;
+	background-position: center center;
+	font-family: "Open Sans";
+	font-size : 1.5em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	opacity: 80%;
+	height: 100px;
+	width: 250px;
+	margin-left: 75px;
+	margin-top: 60px;
+}
+
+.menu1:hover {
+-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+}
+
+.menu2 {
+	background-color: #FFA07A;
+	background-position: center center;
+	font-family: "Open Sans";
+	font-size : 1.5em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	opacity:80%;
+	height: 100px;
+	width: 250px;
+	margin-left: 375px;
+	margin-top : -100px;
+}
+
+#deco{
+	color:black;
+	font-size : 2em;
+	text-decoration:none;
+}
+
+#image_deco{
+	cursor: url("deco.png"), pointer;
+	height:50px;
+	margin-left:50%;
+}
+
+#image_deco2{
+	cursor: url("deco.png"), pointer;
+	height:25px;
+	margin-top:6px;
+	margin-left:30%;
+}
+
+.menu2:hover {
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+}
+
+.menu3 {
+	background-color: #CD5C5C;
+	background-position: center center;
+	font-family: "Open Sans";
+	font-size : 1.5em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	opacity: 80%;
+	height: 100px;
+	width: 250px;
+	margin-left: 675px;
+	margin-top : -100px;
+}
+
+.menu3:hover {
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+}
+
+.menu4 {
+	background-color: #99CCFF;
+	background-position: center center;
+	font-family: "Open Sans";
+	font-size : 1.5em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	opacity: 80%;
+	height: 100px;
+	width: 250px;
+	margin-left: 975px;
+	margin-top : -100px;
+}
+
+.menu4:hover {
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+}
+
+.Règles{
+	font-family : "Bebas Neue";
+	font-size: 45px;
+	color: #2e8b57;
+	margin-top : -40px;
+	margin-left : 250px;
+	text-decoration: underline;
+}
+
+.rectangle{
+	margin-left: 253px;
+	margin-top : 0px;
+	width : 500px;
+	height: 160px;
+	background-color: #C8C8C8;
+	border: 3px;
+	border-color:  #484848;
+	opacity: 60%;
+	border-bottom-style: solid;
+	border-bottom-color: #2e8b57;
+} 
+
+.text{
+		font-family: "Open Sans";
+		position: relative;
+		margin-top: -158px;
+		margin-left: 260px;
+		width : 490px;
+		height: 150px;
+		font-size: 13px;
+		font-style: bold;
+		color: black;
+		opacity: 100%
+		
+		
+}
+.logout{
+	position:relative;
+	font-family: "Bebas Neue";
+	margin-top : -45px;
+	margin-left: 1005px;
+	font-size: 28px;
+	font-style: bold;
+}
+
+.logoutimg {
+	position : relative;
+	margin-top: -64px;
+	margin-left: 900px;
+	opacity : 80%;
+	width : 20px;
+	height: 20px;
+	
+}
+
+.rectangle2 {
+	margin-top : -160px;
+	margin-left: 900px;
+	width : 200px;
+	height: 50px;
+	font-size: 15px;
+	text-align:center;
+	background-color: #C8C8C8;
+	opacity : 60%;
+	border-bottom-style: solid;
+	border-bottom-color: #2e8b57;
+}
+.personimg{
+	margin-left: 1050px;
+	margin-top: -50px;
+	
+}
+ @media screen and (max-width: 768px) {
+.Accueil {
+grid-gap: 50px;
+		grid-template-columns: 350px ;
+		grid-template-rows: 2fr 1fr 1fr 1fr;
+        grid-template-areas:
+	"Titre"
+    "menu1"
+	"menu2"
+	"menu3";
+	justify-content: center; /* alignement vertical */
+ }
+}
+
+ 
+   /***********/
+  /*  Menu   */
+ /***********/
+ 
+.Profilmenu{
+	font-family : "Bebas Neue";
+	font-size: 17px;
+	margin-right : 70px;
+	margin-top : -50px;
+	color: #2e8b57;
+	width: 100px;
+}
+
+.logomenu {
+position: relative;
+width: 200px;
+height: 162px;
+margin-top: -100px;
+margin-left: 50px;
+
+  -webkit-transition:-webkit-transform .9s; 
+  -moz-transition:-moz-transform .9s;       
+  -o-transition:-o-transform .9s;           
+  -ms-transition:-ms-transform .9s;        
+  transition:transform .9s;
+
+}
+.logomenu:hover{
+  -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+}
+
+.profileimg{
+	margin-right : 200px;
+	margin-top: -140px;
+	
+}
+ nav { 
+	margin-right: 31%;
+	margin-left: 31%;
+}
+
+nav ul {
+     border-radius: 15px;
+     list-style-type: none; 
+	 margin: 0;
+     padding: 0;
+     background-color: #C8C8C8;
+     overflow: hidden;
+}
+nav li a {
+	font-family: "Bebas Neue";
+     display: block;
+     color: black; 
+	 padding: 8px 16px;
+     text-decoration: none;
+} 
+nav li a:hover {
+	background-color: #2e8b57;
+	color: white;
+} 
+/*nav li a.active {
+	background-color: #DFDFDF;
+	color: black;
+} */
+nav li a.accueil {
+	background-color: #2e8b57; 
+    color: white;
+} 
+nav li {
+	float:left;
+	text-align: center;
+} 
+
+@media screen and (max-width: 1279px) {
+nav li {
+float: none;
+ }
+}	
+ 
+ 
+ 
+   /**********/
+  /* Sudoku */
+ /**********/
+ 
+
+#tablesudo{
+     color:black;
+     font-weight:bold;
+     width:700px;
+     height:500px;
+     text-align:center;
+	 background-color:white;
+		border-collapse: collapse;
+ }
+ #sudokuname{
+	 width:400px;
+	 margin-left:0px;
+	 
+ }
+ 
+ #submit2 {
+	 width:300px;
+	 height:50px; 
+	 color: black;
+	 background-color: #2e8b57;
+	 font-family: "Bebas Neue";
+	 font-size: 20px;
+	 margin-left:600px;
+}
+ 
+ #sudoname{
+	 text-align:center; 
+	 margin-left:450px;
+	 font-weight:bold;
+ }
+ 
+ 
+.grillesudo{
+	position:relative;
+	z-index:2; 
+	font-family: "Bebas Neue";
+	margin-top : -540px;
+}
+
+.premierplan {
+	position:relative;
+	z-index:3;	
+}
+h4{
+	font-family : "Bebas Neue";
+	font-size: 22px;
+	color: #2e8b57;
+}
+
+.hiddentext{
+		font-family: "Open Sans";
+		font-size: 13px;
+		color: black;
+		opacity: 100%
+}
+ 
+ #case{
+     height:3px;
+     background-color:white;
+     border-color:white;
+     color: #2e8b57;
+
+ }
+ 
+
+ #helpbutton {
+	position: relative;
+	z-index: 3;
+	background-color: #2e8b57;
+	background-position: center center;
+	font-family: "Bebas Neue";
+	font-size : .8em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 0.5px solid #C8C8C8;
+	border-radius: 2.5px;
+	opacity: 70%;
+	height: 25px;
+	width: 80px;
+	margin-right: 205px;
+	margin-top: -90px;
+}
+ #helpbutton:hover {
+-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+	opacity : 75%;
+	background-color: #C8C8C8;
+}
+
+ #submit {
+	 width:300px;
+	 height:50px; 
+	 color: black;
+	 background-color: #2e8b57;
+	 font-family: "Bebas Neue";
+	 font-size: 20px;
+}
+
+#submit:hover {
+	-webkit-transform:scale(1.1); /* Safari et Chrome */
+-moz-transform:scale(1.1); /* Firefox */
+-ms-transform:scale(1.1); /* Internet Explorer 9 */
+-o-transform:scale(1.1); /* Opera */
+transform:scale(1.1);
+	cursor: pointer;
+	opacity : 50%;
+	background-color: #C8C8C8;	
+}
+ 
+
+tr:first-child td {
+    border-top-color: blue;
+}
+tr:nth-child(3n) td {
+    border-bottom-color: blue;
+}
+td {
+    border: 1px solid lightgrey;
+    height: 40px;
+    width: 40px;
+}
+td:first-child {
+    border-left-color: blue;
+}
+td:nth-child(3n) {
+    border-right-color: blue;
+}
+input {
+    padding: 0;
+    text-align: center;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+	 /*****Include*****/
+.engrenage {
+position: relative;
+z-index : 2;
+margin-top : -500px;
+margin-left: 270px; 	
+	
+	
+}
+.engrenage1 {
+position: relative;
+z-index : 1;
+margin-top : 0px;
+margin-left: 315px; 	
+	
+	
+}
+.recanglewtc {
+	position: relative;
+	z-index: 1;
+	margin-right: 60px;
+	margin-top : 150px;
+	width : 250px;
+	height: 90px;
+	background-color: #C8C8C8;
+	border: 3px;
+	border-color:  #484848;
+	opacity: 60%;
+	border-bottom-style: solid;
+	border-bottom-color: #2e8b57;
+}
+
+.textwtc {
+	position: relative;
+	z-index: 2;
+	font-family : "Bebas Neue";
+	font-size: 20px;
+	color: #2e8b57;
+	margin-top : -109px;
+	margin-right : 70px;
+	text-decoration: underline;
+}
+.createsudo {
+	position: relative;
+	z-index: 3;
+	background-color: #2e8b57;
+	background-position: center center;
+	font-family: "Bebas Neue";
+	font-size : .8em;
+	display: flex; /*contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	text-align: center;
+	border: 0.5px solid #C8C8C8;
+	border-radius: 2.5px;
+	opacity: 70%;
+	height: 25px;
+	width: 80px;
+	margin-right: 140px;
+	margin-top: 0px;
+}
+
+.createsudo:hover {
+-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+	cursor: pointer;
+	opacity : 75%;
+	background-color: #C8C8C8;
+}
+
+
+.recanglehelp {
+	position: relative;
+	z-index: 1;
+	margin-right: 197px;
+	margin-top : -140px;
+	margin-bottom: 100px;
+	width : 100px;
+	height: 60px;
+	background-color: #C8C8C8;
+	border: 3px;
+	border-color:  #484848;
+	opacity: 60%;
+	border-bottom-style: solid;
+	border-bottom-color: #2e8b57;
+	
+}
+
+.texthelp {
+	position: relative;
+	z-index: 2;
+	font-family : "Bebas Neue";
+	font-size: 16px;
+	color: #2e8b57;
+	margin-top : 400px;
+	margin-right : 230px;
+	padding-bottom: 100px;
+}
+
+.helpimg{
+	position: relative;
+	margin-right: 158px;
+	margin-top: -143px;
+	margin-bottom: 150px;
+	
+}
+
+.Rules2 {
+	margin-left: 20px;
+	margin-top: -615px;
+
+	position: relative;
+	z-index: 3;
+	width: 120px;
+	height: 60px;
+	border-bottom: 1px solid  #2e8b57;
+	border-right: 1px solid  #2e8b57;
+	overflow: hidden;
+	
+}
+
+.Rules2:hover {
+	transition: .25s;
+	overflow: visible;
+	width: 250px;
+	height: 300px;
+	
+}
+ 
+	  /*********************/
+	 /*  Info utilisateur */
+	/*********************/
+h2 {
+	font-family : "Bebas Neue";
+	font-size: 25px;
+	color: #2e8b57;
+	margin-top : 0px;
+	margin-left : 0px;
+	text-decoration: underline;
+	}	
+	
+	.fonduserdata{
+	position: relative;
+	margin-top : -490px;
+	margin-left: 0px;
+	height: 500px;
+	width: 800px;
+	font-family: "Bebas Neue";
+	}
+	
+	.backuser {
+	background-color: #C8C8C8;
+	height : 500px;
+	width: 880px;
+	opacity: 50%;
+	margin-top: 150px;
+	margin-left: 0px;
+	}
+	
+	.editimg {
+	margin-top: -490px;
+	margin-left: -220px;	
+	}
+	
+	.editprofilebutton{
+		font-family :"Bebas Neue";
+		font-size: 20px;
+		height: 50px;
+		width : 500px;
+		margin-left: 0px;
+		margin-bottom: 100px;
+	}
+	
+	  /*********************/
+	 /*  Foooter          */
+	/*********************/
+		
+	.footersquare{
+		position: relative;
+		height: 155px;
+		background-color: #282828;
+		background-size: cover;
+		margin-top : -50px;
+	}
+ 
+	.footertext{
+		position:relative;
+		font-size: 12px;
+		text-align: justify;
+		color: white;
+		margin-top : 40px;
+		width : 460px;
+		padding-top: 25px;
+		margin-left: 60px;
+		opacity: 80%;
+	}
+ 
+ .share {
+		position: behind;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		margin-top : -100px;
+		margin-left: 600px;
+		width : 300px;
+		height: 80px;
+		padding-top: 25px;
+		padding-left: 20px;
+		opacity: 80%;
+		border-left-style: solid;
+		border-left-color: white;
+		border-right-style: solid;
+		border-right-color: white;
+	 }
+	 
+.imagescontact {
+	width: 35px;
+	height: 35px;
+}
+
+.facebook{
+	margin-left : 665px;
+	margin-top: -38px;
+}
+
+.twitter{
+	margin-left : 715px;
+	margin-top: -32px;
+}
+
+.linkedin{
+	margin-left: 765px;
+	margin-top : -32px;
+}
+
+.whatsapp{
+	margin-left: 815px;
+	margin-top : -32px;
+}
+ 
+.contact {
+		position:relative;
+		font-size: 15px;
+		color: white;
+		text-align: justify;
+		margin-top : -90px;
+		margin-left: 950px;
+		opacity: 80%;
+		width : 300px;
+		height: 100px;
+}
+
+/***********CONFETTIS*************/
+ 
+.container {
+	width: 100%;
+    height: 100%;
+}
+.confetti {
+    width: 15px;
+    height: 15px;
+    background-color: #f2d74e;
+    position: absolute;
+    left: 50%;
+    animation: confetti 5s ease-in-out -2s infinite;
+    transform-origin: left top;
+}
+.confetti:nth-child(1) {
+     background-color: #f2d74e; left: 10%; animation-delay: 0; position: relative; z-index: 3;
+}
+.confetti:nth-child(2) {
+     background-color: #95c3de; left: 20%; animation-delay: -5s; position: relative; z-index: 3;
+}
+.confetti:nth-child(3) {
+     background-color: #ff9a91; left: 30%; animation-delay: -3s; position: relative; z-index: 3;
+}
+.confetti:nth-child(4) {
+     background-color: #f2d74e; left: 40%; animation-delay: -2.5s; position: relative; z-index: 3;
+}
+.confetti:nth-child(5) {
+     background-color: #95c3de; left: 50%; animation-delay: -4s; position: relative; z-index: 3;
+}
+.confetti:nth-child(6) {
+     background-color: #ff9a91; left: 60%; animation-delay: -6s; position: relative; z-index: 3;
+}
+.confetti:nth-child(7) {
+	 background-color: #f2d74e; left: 70%; animation-delay: -1.5s; position: relative; z-index: 3;
+}
+.confetti:nth-child(8) {
+     background-color: #95c3de; left: 80%; animation-delay: -2s; position: relative; z-index: 3;
+}
+	
+
+@keyframes confetti {
+     0% { transform: rotateZ(15deg) rotateY(0deg) translate(0,0); }
+     25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw,20vh); }
+     50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw,60vh); }
+     75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,80vh); }
+     100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,110vh); }
+}
+
+
+.resultat{
+	color: #2e8b57;
+	margin-top: -80px;
+	position : relative;
+	z-index: 1;
+	text-align:center;
+	font-size:8em;
+	font-weight:bold;
+}
+ 
+temps{
+	text-align:center;
+}
+ 
+#back{
+	width:500px;
+	background-color:green;
+	font-weight:bold;
+	border-radius: 10px;
+	font-size:2em;
+	position:relative;
+	z-index: 4;
+	text-align:center;
+	height:100px;
+	margin-top :100px;
+	opacity: 70%;
+}
+  
+#scoreboard{
+	width:500px;
+	background-color:orange;
+	font-weight:bold;
+	border-radius: 10px;
+	font-size:2em;
+	position:relative;
+	text-align:center;
+	height:100px;
+	margin-top :30px;
+}
+
+#back2{
+	width:500px;
+	background-color:green;
+	font-weight:bold;
+	border-radius: 10px;
+	font-size:2em;
+	position:relative;
+	z-index: 4;
+	text-align:center;
+	height:100px;
+	margin-top :100px;
+	margin-left:500px;
+	opacity: 70%;
+}
+#scoreboard2{
+	width:500px;
+	background-color:orange;
+	font-weight:bold;
+	border-radius: 10px;
+	font-size:2em;
+	position:relative;
+	text-align:center;
+	height:100px;
+	margin-top :30px;
+	margin-left:500px;
+}
+
+#editor{
+	width:500px;
+	background-color:blue;
+	color:white;
+	font-weight:bold;
+	border-radius: 10px;
+	font-size:2em;
+	position:relative;
+	text-align:center;
+	height:100px;
+	margin-top :30px;
+	margin-left:500px;
+}
+
+#titre4{
+	font-weight:bold;
+	font-size:2em;
+	color: #2e8b57;
+	margin-left:400px;
+}
+
+#classement4{
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 50px auto;
+	text-align: center;
+	width: 450px;
+	border-color:black;
+	text-align:center;
+	margin-left:550px;
+	position: absolute;
+}
+ 
